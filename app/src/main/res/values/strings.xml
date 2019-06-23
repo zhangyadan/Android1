@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Android1</string>
+    <string name="zixun">资讯</string>
+    <string name="zhihu">知乎日报</string>
+    <string name="wechat">微信精选</string>
+    <string name="gank">干货集中营</string>
+    <string name="gold">稀土掘金</string>
+    <string name="v2ex">V2EX</string>
+    <string name="collection">收藏</string>
+    <string name="choose">选项</string>
+    <string name="setting">设置</string>
+    <string name="about">关于</string>
+    <string name="search">搜索</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="android">Android</string>
+</resources>

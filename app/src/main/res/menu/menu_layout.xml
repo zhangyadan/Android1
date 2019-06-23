@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/it1" android:title="@string/zixun"/>
+    <group android:id="@+id/group1">
+        <item android:id="@+id/zhihu" android:title="@string/zhihu" android:checked="true"/>
+        <item android:id="@+id/wechat" android:title="@string/wechat" android:checked="true"/>
+        <item android:id="@+id/gank" android:title="@string/gank" android:checked="true"/>
+        <item android:id="@+id/gold" android:title="@string/gold" android:checked="true"/>
+        <item android:id="@+id/v2ex" android:title="@string/v2ex" android:checked="true"/>
+    </group>
+    <item android:id="@+id/it2" android:title="@string/choose"/>
+
+    <group android:id="@+id/group2">
+        <item android:id="@+id/collection" android:title="@string/collection" android:checked="true"/>
+        <item android:id="@+id/setting" android:title="@string/setting" android:checked="true"/>
+        <item android:id="@+id/about" android:title="@string/about" android:checked="true"/>
+    </group>
+</menu>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@color/colorPrimary">
+
+      <ImageView
+          android:id="@+id/img"
+          android:layout_width="60dp"
+          android:layout_height="60dp"
+          android:src="@mipmap/down_arrow"
+          android:layout_alignParentRight="true"/>
+
+      <android.support.design.widget.TabLayout
+          android:id="@+id/Table"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_toLeftOf="@id/img"
+          app:tabMode="scrollable"/>
+   </RelativeLayout>
+
+   <android.support.v4.view.ViewPager
+       android:id="@+id/Vp"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent" />
+</LinearLayout>
